@@ -1,0 +1,31 @@
+Inicio,Destino,Ruta,Tiempo
+Tocancipa,Zipaquira,Tocancipa -> Zipaquira,40
+Tocancipa,Briceño,Tocancipa -> Briceño,10
+Tocancipa,Chia,Tocancipa -> Briceño -> Chia,30
+Tocancipa,Sopo,Tocancipa -> Briceño -> Sopo,20
+Tocancipa,Cajica,Tocancipa -> Briceño -> Cajica,30
+Zipaquira,Tocancipa,Zipaquira -> Tocancipa,40
+Zipaquira,Briceño,Zipaquira -> Chia -> Briceño,50
+Zipaquira,Chia,Zipaquira -> Chia,30
+Zipaquira,Sopo,Zipaquira -> Chia -> Briceño -> Sopo,60
+Zipaquira,Cajica,Zipaquira -> Chia -> Briceño -> Cajica,70
+Briceño,Tocancipa,Briceño -> Tocancipa,10
+Briceño,Zipaquira,Briceño -> Tocancipa -> Zipaquira,50
+Briceño,Chia,Briceño -> Chia,20
+Briceño,Sopo,Briceño -> Sopo,10
+Briceño,Cajica,Briceño -> Cajica,20
+Chia,Tocancipa,Chia -> Briceño -> Tocancipa,30
+Chia,Zipaquira,Chia -> Zipaquira,30
+Chia,Briceño,Chia -> Briceño,20
+Chia,Sopo,Chia -> Briceño -> Sopo,30
+Chia,Cajica,Chia -> Briceño -> Cajica,40
+Sopo,Tocancipa,Sopo -> Briceño -> Tocancipa,20
+Sopo,Zipaquira,Sopo -> Briceño -> Tocancipa -> Zipaquira,60
+Sopo,Briceño,Sopo -> Briceño,10
+Sopo,Chia,Sopo -> Briceño -> Chia,30
+Sopo,Cajica,Sopo -> Briceño -> Cajica,30
+Cajica,Tocancipa,Cajica -> Briceño -> Tocancipa,30
+Cajica,Zipaquira,Cajica -> Briceño -> Tocancipa -> Zipaquira,70
+Cajica,Briceño,Cajica -> Briceño,20
+Cajica,Chia,Cajica -> Briceño -> Chia,40
+Cajica,Sopo,Cajica -> Briceño -> Sopo,30
